@@ -5,6 +5,8 @@ const Header = () => {
     const handleOver = event => {
         event.currentTarget.classList.toggle('rubberBand');
     };
+
+
     return(
         <header id="header">
             <div className="container header__container">
